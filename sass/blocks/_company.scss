@@ -1,0 +1,58 @@
+.company__inner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.company__all_text {
+  width: 40%;
+}
+
+.company__all_text>h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+  color: #1A1A25;
+}
+
+.company__all_text>h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  color: #384255;
+}
+
+.company__all_text>p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #384255;
+}
+
+.company__button{
+  padding: 10px 15px;
+  border: 2px solid  #F53B49;
+  border-radius: 5px;
+  color: #F53B49;
+}
+
+.company__img{
+  width: 500px;
+}
+
+@media (max-width: 800px) {
+  .company__all_text{
+    width: 100%;
+  }
+  .company__img{
+    width: 300px;
+  }
+  
+}

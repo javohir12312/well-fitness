@@ -1,0 +1,34 @@
+.club__box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.club__inner>h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+  color: #1A1A25;
+}
+
+.club__img_1 {
+  width: 320px;
+  height: 150px;
+}
+
+.club__imgs {
+  width: 180px;
+  height: 150px;
+}
+
+.club__button{
+  padding: 10px 15px;
+  border: 1px solid #F53B49;
+  border-radius: 5px;
+  color: #F53B49;
+  margin-top: 20px;
+}
+

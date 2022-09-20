@@ -1,0 +1,48 @@
+.stet {
+  background-color: #1A1A25;
+}
+
+.stet__inner {
+  padding-bottom: 30px;
+}
+
+.stet__img{
+  width: 400px;
+}
+
+.stet__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stet__all_text {
+  width: 50%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.stet__all_text>h3>span{
+  color: #F53B49;
+}
+
+.stet__button{
+  padding: 10px 20px;
+  border: 2px solid white;
+  color: white;
+  background-color: #1A1A25;
+   border-radius: 5px;
+}
+
+
+@media (max-width: 500px) {
+  .stet__img{
+     width: 250px;
+  }
+  
+}

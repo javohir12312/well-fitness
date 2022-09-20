@@ -1,0 +1,43 @@
+.new__inner>h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+  display: inline-block;
+  color: #1A1A25;
+  margin-right: 10px;
+}
+
+.new__list {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new__item {
+  width: 235px;
+}
+
+.new__item>img {
+  width: 100%;
+}
+
+.new__item>h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  color: #384255;
+  margin: 0px;
+}
+
+.new__item>p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #384255;
+}

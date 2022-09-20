@@ -1,0 +1,27 @@
+.brand__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.brand__heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  color: #1A1A25;
+
+}
+
+.brand__item>a {
+  color: #384255;
+}
+
+.brand__button{
+  padding: 10px 15px;
+  color: #F53B49;
+  border: 2px solid #F53B49;
+  border-radius: 5px;
+}

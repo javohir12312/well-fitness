@@ -1,0 +1,61 @@
+.box-big {
+  gap: 20px;
+  display: flex;
+}
+
+.box-left {
+  display: flex;
+  gap: 20px;
+}
+
+.box-left>img{
+  max-width: 300px;
+  height: 430px;
+}
+
+.box-right {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.box-right>img{
+  width: 200px;
+  height: 200px;
+}
+
+.box-bottom {
+  margin-top: 20px;
+}
+
+.box-bottom>img{
+  max-width: 250px;
+}
+
+.box-bottom>img {
+  margin: 15px;
+}
+
+.doma__heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+  color: #1A1A25;
+}
+
+@media (max-width: 960px) {
+  .box-big {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap
+  }
+
+  .box-left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+}
