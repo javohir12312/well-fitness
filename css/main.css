@@ -1130,4 +1130,65 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #384255;
+}
+
+.home__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.home__item > img {
+  width: 100%;
+}
+
+.home__item {
+  width: 250px;
+}
+
+.home__item > h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: #1A1A25;
+}
+
+.home__item > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1A1A25;
+}
+
+.aksiya__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.they__inner {
+  margin-top: 100px;
+}
+
+.aksiya__heading > h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+  color: #1A1A25;
+}
+
+.aksiya__heading > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  color: #828282;
 }/*# sourceMappingURL=main.css.map */

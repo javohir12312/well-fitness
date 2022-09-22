@@ -1,0 +1,32 @@
+.home__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.home__item>img {
+  width: 100%;
+}
+
+.home__item {
+  width: 250px;
+}
+
+.home__item>h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: #1A1A25;
+}
+
+.home__item>p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1A1A25;
+}
